@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/oldcards"
+        xmlns:tns="http://www.example.com/oldcards"
+        elementFormDefault="qualified">
+    <element name="card" type="tns:descriptionOfCard"></element>
+    <element name="old_cards">
+        <complexType>
+            <sequence>
+                <element ref="tns:card"
+                         minOccurs="1"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="descriptionOfCard">
+        <complexContent>
+            <extension base="tns:InformationAboutCard">
+                <attribute name="cardID" type="tns:CardID" use="required"/>
+                <attribute name="author" use="optional"/>
+                <attribute name="send" type="boolean" use="required"/>
+            </extension>
+        </complexContent>
+    </complexType>
+    <simpleType name="CardID">
+        <restriction base="ID">
+            <pattern value="[a-zA-Z0-9]{4,9}"/>
+        </restriction>
+    </simpleType>
+    <complexType name="InformationAboutCard">
+        <sequence>
+            <element name="thema" default="people">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="people"/>
+                        <enumeration value="sport"/>
+                        <enumeration value="architecture"/>
+                        <enumeration value="cityscape"/>
+                        <enumeration value="animal"/>
+                        <enumeration value="nature"/>
+                        <enumeration value="religion"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="country" type="string"/>
+            <element name="year" type="positiveInteger"/>
+            <element name="valuable" default="historical">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="historical"/>
+                        <enumeration value="collection"/>
+                        <enumeration value="thematic"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="type" default="greeting">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="greeting"/>
+                        <enumeration value="advertising"/>
+                        <enumeration value="usual"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+    </complexType>
+</schema>

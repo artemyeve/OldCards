@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<old_cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.example.com/oldcards"
+           xsi:schemaLocation="http://www.example.com/oldcards cards.xsd">
+    <card cardID="fjiel21" send="true">
+        <thema>people</thema>
+        <country>America</country>
+        <year>1935</year>
+        <valuable>historical</valuable>
+        <type>usual</type>
+    </card>
+    <card cardID="frekgke" send="true" author="Sychou">
+        <thema>cityscape</thema>
+        <country>Belarus</country>
+        <year>1991</year>
+        <valuable>historical</valuable>
+        <type>usual</type>
+    </card>
+    <card cardID="ferg124" send="false">
+        <thema>animal</thema>
+        <country>America</country>
+        <year>1938</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="ferf421" send="false" author="Bogdevich">
+        <thema>nature</thema>
+        <country>Belarus</country>
+        <year>1992</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="tru124" send="false">
+        <thema>sport</thema>
+        <country>America</country>
+        <year>1922</year>
+        <valuable>collection</valuable>
+        <type>advertising</type>
+    </card>
+    <card cardID="fehj421" send="false" author="Bogdevich">
+        <thema>architecture</thema>
+        <country>Belarus</country>
+        <year>1991</year>
+        <valuable>collection</valuable>
+        <type>advertising</type>
+    </card>
+    <card cardID="feww24" send="false">
+        <thema>religion</thema>
+        <country>Poland</country>
+        <year>1944</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="fezv1" send="false" author="Bogdevich">
+        <thema>sport</thema>
+        <country>Belarus</country>
+        <year>1991</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="fsght24" send="false">
+        <thema>people</thema>
+        <country>Spain</country>
+        <year>1915</year>
+        <valuable>collection</valuable>
+        <type>usual</type>
+    </card>
+    <card cardID="fsef21" send="false" author="Bogdevich">
+        <thema>architecture</thema>
+        <country>Belarus</country>
+        <year>1993</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="fehjm24" send="false">
+        <thema>sport</thema>
+        <country>America</country>
+        <year>1939</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="fbgf1" send="false">
+        <thema>people</thema>
+        <country>Finland</country>
+        <year>1915</year>
+        <valuable>historical</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="fnhf24" send="false">
+        <thema>architecture</thema>
+        <country>America</country>
+        <year>1933</year>
+        <valuable>historical</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="zvx21" send="false" author="Bogdevich">
+        <thema>religion</thema>
+        <country>Belarus</country>
+        <year>1925</year>
+        <valuable>collection</valuable>
+        <type>usual</type>
+    </card>
+    <card cardID="fnhg4" send="false">
+        <thema>sport</thema>
+        <country>America</country>
+        <year>1951</year>
+        <valuable>collection</valuable>
+        <type>usual</type>
+    </card>
+    <card cardID="fehg21" send="false">
+        <thema>people</thema>
+        <country>Sweden</country>
+        <year>1991</year>
+        <valuable>historical</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="fnhngh24" send="false">
+        <thema>architecture</thema>
+        <country>Egypt</country>
+        <year>1900</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="nhggf421" send="false" author="Bogdevich">
+        <thema>people</thema>
+        <country>Belarus</country>
+        <year>1981</year>
+        <valuable>collection</valuable>
+        <type>greeting</type>
+    </card>
+    <card cardID="jhmhj124" send="false">
+        <thema>sport</thema>
+        <country>America</country>
+        <year>1912</year>
+        <valuable>collection</valuable>
+        <type>advertising</type>
+    </card>
+    <card cardID="fgrf421" send="false" author="Bogdevich">
+        <thema>architecture</thema>
+        <country>Belarus</country>
+        <year>1997</year>
+        <valuable>collection</valuable>
+        <type>advertising</type>
+    </card>
+</old_cards>
+  

@@ -1,0 +1,12 @@
+2017-04-26 09:58:00,613 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen DOM parser
+2017-04-26 10:01:32,866 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen DOM parser
+2017-04-26 10:02:40,759 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen DOM parser
+2017-04-26 10:05:08,306 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen SAX parser
+2017-04-26 10:06:12,582 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen SAX parser
+2017-04-26 10:08:53,638 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen StAX parser
+2017-04-26 11:38:17,454 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen DOM builder
+
+2017-04-26 18:35:04,662 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen DOM builder
+2017-04-26 19:28:12,442 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen DOM builder
+2017-04-26 19:28:21,506 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen SAX builder
+2017-04-26 19:28:48,098 INFO by.epam.xml.factory.OldCardsBuilderFactory [main] Chosen StAX builder
